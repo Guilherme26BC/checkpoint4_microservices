@@ -2,7 +2,8 @@
 # Checkpoint2
 API Java com a finalidade de simular os primeiros passos de um sistema de agendamento de consultas, sendo nesse estado atual, os métodos CRUDs de  Paciente e Profissionais.
 
-
+- Guilherme Bezerra Carvalho RM 550282
+- Rodolfo Sanches Cima RM 99748
 ## Instalação
 
 - Configuração do swagger
