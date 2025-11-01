@@ -11,7 +11,6 @@ FROM eclipse-temurin:17-jre-jammy
 WORKDIR /app
 # Copia o .jar gerado e o renomeia para app.jar
 COPY --from=builder /app/target/*.jar app.jar
-COPY --from=builder /server/*.sh run_integrated_tests.sh
 EXPOSE 8080
 # Inicia a aplicação usando o novo nome genérico
 CMD ["java", "-jar", "app.jar"]
