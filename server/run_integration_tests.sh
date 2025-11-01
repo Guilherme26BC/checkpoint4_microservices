@@ -1,5 +1,8 @@
 #!/bin/bash
 
+apt update
+apt install -y jq
+
 HTTP_STATUS=$(curl -X 'POST' \
   'http://localhost:8080/profissionais' \
   -o profissional_created.json \
